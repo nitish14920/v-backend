@@ -11,6 +11,6 @@ export async function connectDB() {
       `\n MongoDB connected !! DB HOST : ${databaseConnectionReference.connection.host}`
     );
   } catch (error) {
-    console.log(error);
+    console.log("Error in DB ", error);
   }
 }
